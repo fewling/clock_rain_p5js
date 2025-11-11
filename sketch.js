@@ -126,7 +126,7 @@ function draw() {
       Composite.remove(world, block);
       blocks.splice(i, 1);
       i -= 1;
-    } else if (mDiff >= 3 && timeType == "second") {
+    } else if (mDiff >= 1 && timeType == "second") {
       block.scaleRate = 0.95;
     } else if (hDiff >= 1 && timeType == "minute") {
       block.scaleRate = 0.95;
